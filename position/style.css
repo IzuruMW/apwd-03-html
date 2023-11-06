@@ -1,0 +1,35 @@
+.static {
+    position: static;
+    width: 100px;
+    height: 70px;
+    background-color: blanchedalmond;
+    left: 120px;
+    top: 50px;
+    /* right: 40px; */
+    /* bottom: 30px; */
+}
+
+.relative2 {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    height: 1000px;
+}
+
+div.absolute {
+    position: relative;
+    border: 3px solid green;
+    /* left: 40px; */
+    right: -10px; 
+}
+
+.fixed {
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    right: 0;
+    background-color: aquamarine;
+}
+
